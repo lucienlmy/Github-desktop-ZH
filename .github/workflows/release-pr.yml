@@ -1,6 +1,8 @@
 name: 'Create Release Pull Request'
 
-on: create
+on:
+  create
+  workflow_dispatch:
 
 jobs:
   build:
